@@ -1,4 +1,5 @@
 import 'package:bilioteca/components/cardwg/index.dart';
+import 'package:bilioteca/pages/login_page.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -32,7 +33,9 @@ class _HomePageState extends State<HomePage> {
   Widget _buildeBody() => ListView(
         children: [
           CardWG('Tela de Login', Icons.lock, () {
-            print('Login');
+            var route = MaterialPageRoute(builder: (context) => LoginPage());
+
+            Navigator.push(context, route);
           }),
           CardWG('Tela Principal', Icons.home, () {
             print('Tela principal');
