@@ -1,5 +1,5 @@
-import 'package:bilioteca/components/cardwg/index.dart';
-import 'package:bilioteca/pages/login_page.dart';
+import 'package:Biblioteca/components/cardwg/index.dart';
+import 'package:Biblioteca/exempolo_login/pages/login_page.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
